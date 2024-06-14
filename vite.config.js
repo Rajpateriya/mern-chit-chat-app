@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "https://chit-chat-a5m5.onrender.com",
+				target: "*",
 				
 			},
 		},
